@@ -1,0 +1,40 @@
+1. Navegación Inicial
+   - Escribe: ls
+   - Escribe: cd Documentos
+   - Escribe: ls
+   - Escribe: cd ..
+
+2. Crear Carpetas y Archivos
+   - Escribe: mkdir Proyectos_2025
+   - Escribe: touch Proyectos_2025/presupuesto.xlsx
+   - Escribe: mkdir /Proyectos_2025/Docs_Internos
+   - Escribe: ls Proyectos_2025
+
+3. Mover (mv)
+   - Escribe: touch temporal.txt
+   - Escribe: mv temporal.txt Proyectos_2025/Docs_Internos
+   - Escribe: ls Proyectos_2025/Docs_Internos
+
+4. Renombrar (rename)
+   - Escribe: rename Proyectos_2025 Proyectos_Finales
+   - Escribe: ls
+
+5. Búsqueda y Trie (search)
+   - Escribe: search Pro
+   (Debe salir Proyectos_Finales gracias al autocompletado)
+
+6. Papelera (rm)
+   - Escribe: touch archivo_borrar.txt
+   - Escribe: search archi
+   - Escribe: rm archivo_borrar.txt
+   - Escribe: search archi 
+   (Ya no debe salir el archivo)
+
+7. Exportar Recorrido
+   - Escribe: export preorden
+
+8. Persistencia
+   - Escribe: exit
+   (Vuelve a ejecutar el programa python filesystem_project.py)
+   - Escribe: ls
+   (Verifica que tus cambios siguen ahí)
